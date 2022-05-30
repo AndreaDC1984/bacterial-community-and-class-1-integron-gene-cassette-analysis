@@ -2,6 +2,7 @@
 script to analyze bacterial community and class 1 integron gene cassette
 
 BACTERIAL COMMUNITY READ NORMALIZATION
+
 getsetwd("C:/Users/Ester/Desktop/CNR/IntI1/for R/") #define the directory where you keep you script and your data
 
 write("Info for article:", "info.csv") #write some information to a file that you will use for the article.
@@ -64,6 +65,7 @@ write(samples_otus, "info.csv", append=TRUE)
 
 
 BACTERIAL COMMUNITY AND CLASS 1 INTEGRON GENE CASSETTE ANALYSIS
+
 setwd("C:/Users/Admin/Desktop/CNR/IntI1/for R")
 
 vari<-read.csv("complete_fileR.csv")
