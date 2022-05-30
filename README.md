@@ -61,7 +61,10 @@ write.csv(taxa, "taxa.csv")
 samples_otus<-dim(raOTU)
 write("Nr of samples and Nr of otus left after cleaning:", "info.csv", append=TRUE)
 write(samples_otus, "info.csv", append=TRUE)
- 
+
+
+
+
 
 
 BACTERIAL COMMUNITY AND CLASS 1 INTEGRON GENE CASSETTE ANALYSIS
@@ -322,4 +325,5 @@ out2<-capture.output(ph2)
 write(out2,"stats.txt",append=T)
 plot(Paludibacter~Sample, data=tdf)
 plot(Paludibacter~Month, data=tdf)
+
 
